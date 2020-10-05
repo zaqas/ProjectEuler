@@ -7,7 +7,7 @@ def checkSquare(item):
         return iSquare
 
 def isFibo():
-    myList= [i for i in range(4000000) if i is not None] # Removes None from list
+    myList= [i for i in range(4000000) if i is not None]
     fibo = []
     for item in myList:
         if checkSquare(5*item**2+4):
